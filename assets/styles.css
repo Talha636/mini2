@@ -1,0 +1,56 @@
+:root {
+    --pink: #d449bd;
+}
+
+* {
+    background-color: #313131;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    color: var(--pink);
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 30%;
+    padding: 5px;
+    margin: 0px 0px 30px 10px;
+    border: 1px dashed white;
+}
+
+section h2 {
+    position: relative;
+    margin-top: -20px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+section p {
+    color: var(--pink);
+}
+
+.code {
+    color: white;
+    background-image: linear-gradient(rgb(128, 128, 128), rgb(218, 51, 182));
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+}
